@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# LaTeX 中间文件
+*.aux
+*.log
+*.out
+*.toc
+*.bak
+*.bak.*
+
+# 实验产物（不入仓）
+preds_baseline.json
+*.smoke50.jsonl
+
+# 系统/编辑器
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# 大文件（原始 zip 不进仓）
+*.zip
